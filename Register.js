@@ -5,7 +5,6 @@ import { useNavigation } from '@react-navigation/native';
 function Register() {
     const navigation = useNavigation();
     const handleLoginPress = () => {
-        // Navega a la pantalla de registro cuando se presiona el botón "Registrarse"
         navigation.navigate('Login');
     };
   const [formData, setFormData] = useState({
@@ -29,7 +28,7 @@ function Register() {
 
   const handleSubmit = () => {
     console.log(formData);
-    // Agrega aquí la lógica para enviar los datos a tu backend o realizar otras acciones
+   
   };
 
   return (
